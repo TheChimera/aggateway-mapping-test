@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductMovementReport xmlns="urn:cidx:names:specification:ces:schema:all:7.1" Version="7.1">
+  <Header>
+    <ThisDocumentIdentifier>
+      <DocumentIdentifier>PAS-NCS-PMR-202609-001</DocumentIdentifier>
+    </ThisDocumentIdentifier>
+    <ThisDocumentDateTime>
+      <DateTime DateTimeQualifier="On">2026-10-13T12:00:00</DateTime>
+    </ThisDocumentDateTime>
+    <From>
+      <PartnerInformation>
+        <PartnerName>PRAIRIE AG SUPPLY</PartnerName>
+        <PartnerIdentifier Agency="AGIIS-EBID">1001234560000</PartnerIdentifier>
+        <AddressInformation>
+          <CityName>DES MOINES</CityName>
+          <StateOrProvince>IA</StateOrProvince>
+          <PostalCode>50309</PostalCode>
+          <PostalCountry>US</PostalCountry>
+        </AddressInformation>
+      </PartnerInformation>
+    </From>
+    <To>
+      <PartnerInformation>
+        <PartnerName>NORTHFIELD CROP SCIENCES</PartnerName>
+        <PartnerIdentifier Agency="AGIIS-EBID">1009876540000</PartnerIdentifier>
+      </PartnerInformation>
+    </To>
+  </Header>
+  <ProductMovementReportBody>
+    <ProductMovementReportProperties>
+      <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+      <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+    </ProductMovementReportProperties>
+    <ProductMovementReportDetails>
+      <ReportingEntity>
+        <PartnerInformation>
+          <PartnerName>PRAIRIE AG SUPPLY</PartnerName>
+          <PartnerIdentifier Agency="AGIIS-EBID">1001234560000</PartnerIdentifier>
+          <AddressInformation>
+            <CityName>DES MOINES</CityName>
+            <StateOrProvince>IA</StateOrProvince>
+            <PostalCode>50309</PostalCode>
+            <PostalCountry>US</PostalCountry>
+          </AddressInformation>
+        </PartnerInformation>
+      </ReportingEntity>
+      <ProductMovementTransactions ProductMovementReportType="SalesReport">
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="StockSale" SaleOrReturnType="EndUser">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-0901</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-09-02T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ShipDate">
+              <DateTime DateTimeQualifier="On">2026-09-03T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>HARTLEY FARMS</PartnerName>
+                <PartnerIdentifier Agency="Other">70451220</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>2210 RIVER RD</AddressLine>
+                  <CityName>ELKADER</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52043</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - CLAYTON</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560101</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>CLAYTON</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52049</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">40210.250</ProductIdentifier>
+                <ProductName>VERDANT 540 HERBICIDE</ProductName>
+                <ProductDescription>2 X 2.5 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>40</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">GLL</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+            </ProductMovementProductLineItem>
+            <ProductMovementProductLineItem>
+              <LineNumber>2</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">51133.100</ProductIdentifier>
+                <ProductName>HALCYON FUNGICIDE</ProductName>
+                <ProductDescription>4 X 1 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>24</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">GLL</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+              <PackagingQuantity>
+                <Measurement>
+                  <MeasurementValue>6</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">CS</UnitOfMeasureCode>
+                </Measurement>
+              </PackagingQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="StockSale" SaleOrReturnType="EndUser">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-0907</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-09-07T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ShipDate">
+              <DateTime DateTimeQualifier="On">2026-09-08T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>BROOK VALLEY GRAIN LLC</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1005556660000</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>88 COUNTY RD X16</AddressLine>
+                  <CityName>GUTTENBERG</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52052</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - CLAYTON</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560101</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>CLAYTON</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52049</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="GTIN">00812345000017</ProductIdentifier>
+                <ProductName>VERDANT 540 HERBICIDE</ProductName>
+                <ProductDescription>2 X 2.5 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">40210.250</ProductIdentifier>
+                <ProductName>VERDANT 540 HERBICIDE</ProductName>
+                <ProductDescription>2 X 2.5 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>50</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">GLL</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+              <PackagingQuantity>
+                <Measurement>
+                  <MeasurementValue>10</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">CS</UnitOfMeasureCode>
+                </Measurement>
+              </PackagingQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="Return" SaleOrReturnType="EndUser">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-0912</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-09-12T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ReturnDate">
+              <DateTime DateTimeQualifier="On">2026-09-14T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>HARTLEY FARMS</PartnerName>
+                <PartnerIdentifier Agency="Other">70451220</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>2210 RIVER RD</AddressLine>
+                  <CityName>ELKADER</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52043</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - CLAYTON</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560101</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>CLAYTON</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52049</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">40210.250</ProductIdentifier>
+                <ProductName>VERDANT 540 HERBICIDE</ProductName>
+                <ProductDescription>2 X 2.5 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>-15</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">GLL</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="StockSale" SaleOrReturnType="EndUser">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-0829</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-08-29T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ShipDate">
+              <DateTime DateTimeQualifier="On">2026-09-03T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>OAKMERE PARTNERS</PartnerName>
+                <PartnerIdentifier Agency="AssignedByBuyer">OAK-0193</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>410 HWY 52</AddressLine>
+                  <CityName>MONONA</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52159</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - AMES</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560102</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>AMES</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>50010</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">51133.100</ProductIdentifier>
+                <ProductName>HALCYON FUNGICIDE</ProductName>
+                <ProductDescription>4 X 1 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>20</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">GLL</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="StockSale" SaleOrReturnType="EndUser">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-0918</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-09-18T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ShipDate">
+              <DateTime DateTimeQualifier="On">2026-09-21T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>OAKMERE PARTNERS</PartnerName>
+                <PartnerIdentifier Agency="AssignedByBuyer">OAK-0193</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>410 HWY 52</AddressLine>
+                  <CityName>MONONA</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52159</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - AMES</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560102</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>AMES</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>50010</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">62001.025</ProductIdentifier>
+                <ProductName>ROOTWISE SEED TREATMENT</ProductName>
+                <ProductDescription>1 X 25 LB</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>200</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">LBR</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+              <PackagingQuantity>
+                <Measurement>
+                  <MeasurementValue>8</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">BG</UnitOfMeasureCode>
+                </Measurement>
+              </PackagingQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="StockSale" SaleOrReturnType="EndUser">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-0921</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-09-21T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ShipDate">
+              <DateTime DateTimeQualifier="On">2026-09-22T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>BROOK VALLEY GRAIN LLC</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1005556660000</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>88 COUNTY RD X16</AddressLine>
+                  <CityName>GUTTENBERG</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52052</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - CLAYTON</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560101</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>CLAYTON</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52049</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">40210.250</ProductIdentifier>
+                <ProductName>VERDANT 540 HERBICIDE</ProductName>
+                <ProductDescription>2 X 2.5 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>30</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">GLL</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="Return" SaleOrReturnType="EndUser">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-0925</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-09-25T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ReturnDate">
+              <DateTime DateTimeQualifier="On">2026-09-28T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>BROOK VALLEY GRAIN LLC</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1005556660000</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>88 COUNTY RD X16</AddressLine>
+                  <CityName>GUTTENBERG</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52052</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - CLAYTON</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560101</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>CLAYTON</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52049</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">51133.100</ProductIdentifier>
+                <ProductName>HALCYON FUNGICIDE</ProductName>
+                <ProductDescription>4 X 1 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>-8</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">GLL</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+              <PackagingQuantity>
+                <Measurement>
+                  <MeasurementValue>-2</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">CS</UnitOfMeasureCode>
+                </Measurement>
+              </PackagingQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="StockSale" SaleOrReturnType="EndUser">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-0930</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-09-30T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ShipDate">
+              <DateTime DateTimeQualifier="On">2026-10-01T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>OAKMERE PARTNERS</PartnerName>
+                <PartnerIdentifier Agency="AssignedByBuyer">OAK-0193</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>410 HWY 52</AddressLine>
+                  <CityName>MONONA</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52159</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - AMES</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560102</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>AMES</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>50010</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">62001.025</ProductIdentifier>
+                <ProductName>ROOTWISE SEED TREATMENT</ProductName>
+                <ProductDescription>1 X 25 LB</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>400</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">LBR</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="StockSale" SaleOrReturnType="EndUser">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-1001</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-10-01T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ShipDate">
+              <DateTime DateTimeQualifier="On">2026-10-02T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>HARTLEY FARMS</PartnerName>
+                <PartnerIdentifier Agency="Other">70451220</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>2210 RIVER RD</AddressLine>
+                  <CityName>ELKADER</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52043</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - CLAYTON</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560101</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>CLAYTON</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52049</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">40210.250</ProductIdentifier>
+                <ProductName>VERDANT 540 HERBICIDE</ProductName>
+                <ProductDescription>2 X 2.5 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>50</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">GLL</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+      </ProductMovementTransactions>
+    </ProductMovementReportDetails>
+    <ProductMovementReportDetails>
+      <ReportingEntity>
+        <PartnerInformation>
+          <PartnerName>PRAIRIE AG SUPPLY</PartnerName>
+          <PartnerIdentifier Agency="AGIIS-EBID">1001234560000</PartnerIdentifier>
+          <AddressInformation>
+            <CityName>DES MOINES</CityName>
+            <StateOrProvince>IA</StateOrProvince>
+            <PostalCode>50309</PostalCode>
+            <PostalCountry>US</PostalCountry>
+          </AddressInformation>
+        </PartnerInformation>
+      </ReportingEntity>
+      <ProductMovementTransactions ProductMovementReportType="ProductTransferReport">
+        <ProductMovementTransaction>
+          <ProductMovementTransactionProperties ProductMovementType="IntraCompanyTransferOut" SaleOrReturnType="Wholesale">
+            <ReferenceInformation ReferenceType="InvoiceNumber">
+              <DocumentReference>
+                <DocumentIdentifier>INV-26-0915</DocumentIdentifier>
+              </DocumentReference>
+            </ReferenceInformation>
+            <EventDateTime EventDateType="InvoiceDate">
+              <DateTime DateTimeQualifier="On">2026-09-15T00:00:00</DateTime>
+            </EventDateTime>
+            <EventDateTime EventDateType="ShipDate">
+              <DateTime DateTimeQualifier="On">2026-09-16T00:00:00</DateTime>
+            </EventDateTime>
+            <LanguageCode Domain="ISO-639-2T">eng</LanguageCode>
+            <CurrencyCode Domain="ISO-4217">USD</CurrencyCode>
+          </ProductMovementTransactionProperties>
+          <ProductMovementTransactionPartners>
+            <ShipTo>
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - AMES</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560102</PartnerIdentifier>
+                <AddressInformation>
+                  <AddressLine>1200 LINCOLN WAY</AddressLine>
+                  <CityName>AMES</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>50010</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </ShipTo>
+            <OtherPartner PartnerRole="ShipFrom">
+              <PartnerInformation>
+                <PartnerName>PRAIRIE AG SUPPLY - CLAYTON</PartnerName>
+                <PartnerIdentifier Agency="AGIIS-EBID">1001234560101</PartnerIdentifier>
+                <AddressInformation>
+                  <CityName>CLAYTON</CityName>
+                  <StateOrProvince>IA</StateOrProvince>
+                  <PostalCode>52049</PostalCode>
+                  <PostalCountry>US</PostalCountry>
+                </AddressInformation>
+              </PartnerInformation>
+            </OtherPartner>
+          </ProductMovementTransactionPartners>
+          <ProductMovementTransactionDetails>
+            <ProductMovementProductLineItem>
+              <LineNumber>1</LineNumber>
+              <ProductIdentification>
+                <ProductIdentifier Agency="AssignedByManufacturer">40210.250</ProductIdentifier>
+                <ProductName>VERDANT 540 HERBICIDE</ProductName>
+                <ProductDescription>2 X 2.5 GAL</ProductDescription>
+              </ProductIdentification>
+              <ProductQuantity>
+                <Measurement>
+                  <MeasurementValue>100</MeasurementValue>
+                  <UnitOfMeasureCode Domain="UN-Rec-20">GLL</UnitOfMeasureCode>
+                </Measurement>
+              </ProductQuantity>
+            </ProductMovementProductLineItem>
+          </ProductMovementTransactionDetails>
+        </ProductMovementTransaction>
+      </ProductMovementTransactions>
+    </ProductMovementReportDetails>
+  </ProductMovementReportBody>
+</ProductMovementReport>
